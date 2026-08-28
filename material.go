@@ -43,7 +43,8 @@ var byName = map[string]string{
 
 // byExt maps a lower-cased extension (with the dot) to an icon.
 var byExt = map[string]string{
-	".tex": "tex", ".sty": "tex", ".cls": "tex", ".bib": "tex", ".dtx": "tex", ".ins": "tex",
+	".tex": "tex", ".bib": "tex", ".dtx": "tex", ".ins": "tex",
+	".sty": "settings", ".cls": "settings", // LaTeX packages/classes read apart from a .tex document
 	".md": "markdown", ".markdown": "markdown",
 	".json": "json",
 	".yml":  "yaml", ".yaml": "yaml",
