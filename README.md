@@ -5,7 +5,7 @@ File-type icons from the [Material Icon Theme](https://github.com/material-exten
 for pure-Go UIs that render their own icons.
 
 ```go
-import materialicons "github.com/go-icons/material-icons"
+import material "github.com/go-icons/material"
 
 svg := materialicons.Icon("paper.tex") // the Material .tex glyph, as an SVG string
 dir := materialicons.Folder()          // the folder glyph
